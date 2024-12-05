@@ -1,0 +1,13 @@
+  apiVersion: backstage.io/v1alpha1
+  kind: Component
+  metadata:
+    name: flutter_jailbreak_detection
+    description: Github repository for flutter_jailbreak_detection
+    annotations:
+      google.com/cloudbuild-project-slug: ao-docs-tools
+      github.com/project-slug: AODocs-Dev/flutter_jailbreak_detection
+      sonarqube.org/project-key: AODocs-Dev_flutter_jailbreak_detection
+  spec:
+    type: service
+    lifecycle: production
+    owner: group:default/sre
